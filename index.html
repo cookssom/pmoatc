@@ -28,9 +28,9 @@ $(document).ready(function() {
         if (vars) {
                 //$("input[name=brandcode]").val(vars.code);
                 //$("input[name=branduid]").val(vars.id);
-			        	//$("input[id=size]").val(vars.size);
-			        	$("input[name=option[0][0]]").val(vars.size);
-                //$('#form').attr('action', 'https://peaceminusone.com/order/add');
+		//$("input[id=size]").val(vars.size);
+		$("input[name=option[0][0]]").val(vars.size);
+                $('#form').attr('action', 'https://peaceminusone.com/order/add');
                 $('#form').submit();
         }
 })
@@ -53,12 +53,13 @@ $(document).ready(function() {
 		
 		<!--
 		<input hidden name="option[0][0]" value="270">
+ 		<input type="submit" value="Add To Cart">
 		-->
 		
 
 		
 		
- <input type="submit" value="Add To Cart">
+
 </form>
 
 
